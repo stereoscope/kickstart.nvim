@@ -13,7 +13,6 @@ return {
         'debugpy',
         'lua-language-server',
         'stylua',
-        'odoo-ls', -- dein Odoo-LSP
         'sqlfluff', -- optional
       },
     },

@@ -3,6 +3,7 @@ return {
   'stevearc/dressing.nvim',
   event = 'VeryLazy',
   opts = {
+    select = { enabled = false }, -- telescope-ui-select handles vim.ui.select
     input = {
       enabled = true,
       relative = 'cursor',

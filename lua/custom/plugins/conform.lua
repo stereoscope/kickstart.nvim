@@ -16,7 +16,7 @@ return {
         sql = { 'sqlfluff' }, -- falls du magst
       },
       formatters = {
-        ruff_fix = { command = 'ruff', args = { 'check', '--fix', '--select', 'I', '--force-exclude' } },
+        ruff_fix = { command = 'ruff', args = { 'check', '--fix', '--select', 'I', '--force-exclude', '--stdin-filename', '$FILENAME', '-' } },
       },
     },
   },
